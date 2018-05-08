@@ -1,0 +1,35 @@
+#p1{
+
+}
+#p2{
+    /*position: static;*/ /*this is default*/
+    /*position: relative;
+    position: fixed;
+    position: absolute;
+    position: sticky;*/
+}
+
+div{
+    background-color: lightcyan;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#div3{
+    /*position: relative;
+    top: 20px;
+    left: 90px;*/
+/*position: fixed;
+top: 30px;*//*from the window*/
+/*position: absolute;
+bottom: 30px;
+left:30px;
+*/
+position: sticky;
+top: 0;}
+#div2{
+    position: relative;
+    margin: 0;
+}
+#div1{padding: 0;
+}

@@ -1,0 +1,31 @@
+div{
+    margin: 100px;
+}
+#div1{
+background-color: maroon;
+height: 80px;
+width: 80px;
+margin: 100px;
+
+}
+
+#div2{
+background-color: black;
+height: 50px;
+width:50px;
+
+}
+
+#div1:hover{
+    background-color: black;
+    height: 40px;
+    transition: height 2s, backgound 4s;
+
+}
+
+
+
+div:hover + div{ 
+     margin-left:200px;
+transition: margin 2s;
+}

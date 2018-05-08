@@ -1,0 +1,31 @@
+ li
+{
+font-weight: bold;    
+}
+
+ul>li{
+    color: blue;
+}
+
+ol>li{
+    color: red;
+}
+ul ul{
+    font-size: italic;
+}
+
+ul > ul{
+    color: pink;
+}/*will not work as not direct child*/
+ul li{
+    color: orange;
+}
+ul li li {
+    color:brown;
+}
+
+ol+ul{
+    background-color: green;
+
+}/*applies only if nothing is bw ol and ul, if say para in bw, use ~ to apply style*/
+

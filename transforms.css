@@ -1,0 +1,11 @@
+#div1{
+    height: 70px;
+    width: 70px;
+    margin: 150px;
+    background-color: orange;
+    /*transform: translate(30px,30px)*/
+    /*transform: scale(2)*/
+    /*transform: skew(40deg,0)*/
+    /*transform: rotateX(45deg)*/  
+    
+}

@@ -1,0 +1,21 @@
+$(function(){
+let newtodobox= $('#newtodo')
+let addtodobtn= $('#addtodo')
+let todolist= $('#todolist')
+
+addtodobtn.click
+(function(){
+    let newtodo = newtodobox.val()
+    $.post (
+        '/todos/',
+        {task:newtodo},
+        function(data){
+         todolist.empty();
+         for(todo of data){
+             todolist.append("<li>"+todo.task+"</li>")
+         }
+        }
+    )
+})
+})
+

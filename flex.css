@@ -1,0 +1,25 @@
+
+.container{
+    background-color: lightcoral;
+    display:flex;
+    /*flex-direction: column-reverse;*/
+flex-wrap:wrap;
+justify-content: center;
+align-items: flex-end;
+height: 600px;
+}
+.item{
+    background-color: lightblue;
+    margin: 20px;
+    height: 60px;
+    width:60px;
+    padding: 10px;
+    font-size: 30px;
+    flex-grow: 1;
+}
+
+#item1{
+    order: 1;
+    flex-shrink: 1;
+    align-self: flex-start;
+}

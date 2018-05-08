@@ -1,0 +1,11 @@
+{
+  "name": "sample-npm",
+  "version": "0.1.0",
+  "description": "very nice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prerna Srivastav <prernasrivastav03@gmail.com>",
+  "license": "ISC"
+}
